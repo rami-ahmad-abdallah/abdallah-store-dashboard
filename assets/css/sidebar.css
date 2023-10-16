@@ -264,7 +264,6 @@ body {
   flex: 1;
   overflow: auto;
   background-color: var(--main-bg-color);
-  padding: 50px 0px;
   /* width */
   /* Track */
   /* Handle */
@@ -379,7 +378,7 @@ body {
   background-color: rgb(49, 224, 90);
 }
 .main-wrapper section {
-  padding: 25px;
+  padding: 50px 25px;
 }
 .main-wrapper section h4 {
   margin: 15px 0px;

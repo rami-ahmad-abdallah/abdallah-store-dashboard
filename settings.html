@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="RamiAbdallah" />
+    <meta name="theme-color" content="#1c6f8b" />
+    <title>Abdallah store</title>
+    <!-- WEBSITE ICON -->
+    <!-- <link
+      rel="shortcut icon"
+      href="./assets/images/fabric-flair-icon.png"
+      type="image/x-icon" /> -->
+
+    <!-- BOOTSTRAP ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+
+    <!-- GOOGLE FONT ARABIC CAIRO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo&display=swap"
+      rel="stylesheet" />
+
+    <!-- CUSTOM SIDEBAR STYLES -->
+    <link rel="stylesheet" href="./assets/css/sidebar.css" />
+  </head>
+  <body>
+    <nav class="sidebar-wrapper" id="sidebar">
+      <section class="sidebar sidebar-info">
+        <!-- <img src="./assets/images/LOGO.png" alt="Logo" />
+         -->
+        <h2>شعار المتجر</h2>
+        <span class="btn-close-sidebar">X</span>
+      </section>
+
+      <section class="sidebar">
+        <div class="sidebar-item">
+          <a class="sidebar-link" href="./index.html">
+            <i class="bi bi-house-door"></i> &nbsp;الرئيسية
+          </a>
+        </div>
+
+        <div class="sidebar-item">
+          <div class="group-title">
+            <p>المنتجات</p>
+            <div class="line"></div>
+          </div>
+          <div class="sub-links">
+            <a class="sidebar-link" href="products.html">
+              <i class="bi bi-diagram-2-fill"></i>&nbsp; عرض جميع المنتجات
+            </a>
+            <a class="sidebar-link" href="add-product.html">
+              <i class="bi bi-node-plus-fill"></i>&nbsp; إضافة منتج جديد
+            </a>
+          </div>
+        </div>
+
+        <div class="sidebar-item">
+          <div class="group-title">
+            <p>الطلبات</p>
+            <div class="line"></div>
+          </div>
+          <div class="sub-links">
+            <a
+              class="sidebar-link alertable"
+              href="new-orders.html"
+              orders="31">
+              <i class="bi bi-card-list"></i>&nbsp; الطلبات الجديدة
+            </a>
+
+            <a class="sidebar-link" href="orders.html">
+              <i class="bi bi-list-ul"></i>&nbsp; عرض جميع الطلبات
+            </a>
+          </div>
+        </div>
+
+        <div class="sidebar-item">
+          <div class="group-title">
+            <p>الخصومات</p>
+            <div class="line"></div>
+          </div>
+          <div class="sub-links">
+            <a class="sidebar-link" href="proucts-discounts.html" orders="31">
+              <i class="bi bi-wallet"></i>&nbsp; خصومات المنتجات
+            </a>
+
+            <a class="sidebar-link" href="coupons.html">
+              <i class="bi bi-wallet2"></i>&nbsp; قسائم الخصم
+            </a>
+          </div>
+        </div>
+
+        <div class="sidebar-item">
+          <div class="group-title">
+            <p>إعدادات</p>
+            <div class="line"></div>
+          </div>
+          <div class="sub-links">
+            <a class="sidebar-link active-link" href="settings.html">
+              <i class="bi bi-gear"> </i>&nbsp; إعدادات بيانات الموقع
+            </a>
+            <a class="sidebar-link" href="profile.html">
+              <i class="bi bi-person-gear"></i>&nbsp; إعدادات الحساب
+            </a>
+          </div>
+        </div>
+
+        <div class="sidebar-item">
+          <form action="#" method="post" class="logout-form">
+            <button type="submit" class="sidebar-link">
+              <i class="bi bi-power"></i> &nbsp; تسجيل الخروج
+            </button>
+          </form>
+        </div>
+      </section>
+    </nav>
+
+    <main class="main-wrapper">
+      <section class="navbar">
+        <div class="profile">
+          <p>الإسم هنا</p>
+          <img src="./assets/images/default.png" alt="profile-avatar" />
+          <!-- <div class="alerts" alerts-no="7">
+            <i class="bi bi-bell"></i>
+          </div> -->
+        </div>
+
+        <div class="toggler" id="toggler">
+          <i class="bi bi-list"></i>
+        </div>
+      </section>
+
+      <section class="best-seller">
+        <div class="add-form">
+          <form action="#" method="post" class="dashboard-form">
+            <div class="form-info"></div>
+
+            <h5>بيانات وسائل التواصل الإجتماعي</h5>
+            <div class="form-inputs flex-flow-section">
+              <div class="input-field">
+                <label for="facebook">رابط صفحة فيس بوك </label>
+                <input
+                  type="text"
+                  name="facebook"
+                  id="facebook"
+                  placeholder="رابط صفحة فيس بوك " />
+              </div>
+
+              <div class="input-field">
+                <label for="instagram">رابط صفحة إنستغرام </label>
+                <input
+                  type="text"
+                  name="instagram"
+                  id="instagram"
+                  placeholder="رابط صفحة إنستغرام " />
+              </div>
+
+              <div class="input-field">
+                <label for="twitter">رابط صفحة تويتر </label>
+                <input
+                  type="text"
+                  name="twitter"
+                  id="twitter"
+                  placeholder="رابط صفحة تويتر " />
+              </div>
+
+              <div class="input-field">
+                <label for="youtube">رابط قناة اليوتيوب </label>
+                <input
+                  type="text"
+                  name="youtube"
+                  id="youtube"
+                  placeholder="رابط قناة اليوتيوب  " />
+              </div>
+            </div>
+
+            <div class="seperator"></div>
+            <h5>بيانات الموقع</h5>
+            <div class="form-inputs">
+              <div class="input-field">
+                <label for="description">وصف الموقع</label>
+                <textarea name="description" id="description"></textarea>
+                <p class="error-field">
+                  .أبجد هوز حطى كلمن هوى ، إجراءات المراقبة المعززة. التوازن ،
+                  الاحتياجات
+                </p>
+                <div class="hint">
+                  وصف الموقع الذي يظهر داخل محركات البحث والذي يظهر تحت رابط
+                  الموقع عند ارساله كرسالة
+                </div>
+              </div>
+
+              <div class="input-field">
+                <label for="keywords">كلمات الموقع المفتاحية</label>
+                <textarea name="keywords" id="keywords"></textarea>
+                <p class="error-field">
+                  .أبجد هوز حطى كلمن هوى ، إجراءات المراقبة المعززة. التوازن ،
+                  الاحتياجات
+                </p>
+                <div class="hint">
+                  يجب أن تكون الكلمات المفتاحية معبرة و أن تفصل ب
+                  <span class="special">,</span>
+                  فاصلة
+                </div>
+                <div class="hint">
+                  الكلمات المفتاحية تفيد في تحسين ظهور الموقع للزبائن
+                </div>
+              </div>
+            </div>
+
+            <div class="seperator"></div>
+            <h5>بيانات التواصل</h5>
+            <div class="form-inputs flex-flow-section">
+              <div class="input-field">
+                <label for="location">الموقع الجغرافي </label>
+                <input
+                  type="text"
+                  name="location"
+                  id="location"
+                  placeholder="الموقع الجغرافي  " />
+              </div>
+
+              <div class="input-field">
+                <label for="email">البريد الإلكتروني </label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="البريد الإلكتروني  " />
+              </div>
+
+              <div class="input-field">
+                <label for="phone">رقم الهاتف </label>
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  placeholder="رقم الهاتف  " />
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <input
+                type="submit"
+                value="حفظ التغييرات"
+                class="btn btn-primary" />
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="./assets/js/sidebar-js.js"></script>
+  </body>
+</html>

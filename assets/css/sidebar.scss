@@ -313,13 +313,12 @@ body {
 }
 
 
-
-
 .main-wrapper {
     width: calc(100vw - var(--sidebar-width));
     height: 100vh;
     flex: 1;
     overflow: auto;
+    padding-bottom: 50px;
     background-color: var(--main-bg-color);
 
 

@@ -263,6 +263,7 @@ body {
   height: 100vh;
   flex: 1;
   overflow: auto;
+  padding-bottom: 50px;
   background-color: var(--main-bg-color);
   /* width */
   /* Track */
@@ -378,7 +379,7 @@ body {
   background-color: rgb(49, 224, 90);
 }
 .main-wrapper section {
-  padding: 50px 25px;
+  padding: 50px 45px;
 }
 .main-wrapper section h4 {
   margin: 15px 0px;

@@ -957,6 +957,41 @@ body {
                 min-width: 100%;
             }
         }
+
+        .variations {
+            display: flex;
+            gap: 10px;
+            flex-flow: row wrap;
+            width: 100%;
+
+            .single-variation {
+                border-radius: 5px;
+                margin: 15px 0px;
+                box-shadow: 0px 0px 10px -5px black;
+                flex: 1;
+                overflow: hidden;
+                min-width: 300px;
+
+                .delete-variation {
+                    width: 30px;
+                    background: rgb(211, 5, 5);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    height: 30px;
+                    font-size: 16px;
+                    font-weight: 900;
+                    cursor: pointer;
+                    border-bottom-left-radius: 5px;
+
+                    &:hover {
+                        background-color: rgb(156, 10, 10);
+                    }
+                }
+            }
+        }
+
     }
 
     .seperator {

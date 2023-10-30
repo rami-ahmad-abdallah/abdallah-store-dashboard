@@ -210,6 +210,42 @@
                 المنتج
               </div>
             </div>
+
+            <div
+              class="input-field stretch-field"
+              style="background: #dddddd; border-radius: 10px">
+              <h4>إختلافات المنتج</h4>
+              <a href="#" onclick="addVariationField()">إضافة +</a>
+              <div class="variations" id="variations">
+                <div class="single-variation">
+                  <div
+                    class="delete-variation"
+                    onclick="deleteVariation(this.parentElement)">
+                    X
+                  </div>
+                  <div class="input-field">
+                    <label for="pvd-${variationsNumber}">وصف قصير</label>
+                    <input
+                      type="text"
+                      name="variations_descriptions[]"
+                      id="pvd-${variationsNumber}"
+                      placeholder="وصف الإختلاف" />
+                    <div class="error-field"></div>
+                  </div>
+
+                  <div class="input-field">
+                    <label for="pvp-${variationsNumber}">السعر</label>
+                    <input
+                      type="number"
+                      name="variations_prices[]"
+                      id="pvp-${variationsNumber}"
+                      value="100"
+                      placeholder="سعر الإختلاف" />
+                    <div class="error-field"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div class="form-actions">
@@ -226,5 +262,6 @@
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
     <script src="./assets/js/sidebar-js.js"></script>
     <script src="./assets/js/drop-images.js"></script>
+    <script src="./assets/js/variations.js"></script>
   </body>
 </html>
